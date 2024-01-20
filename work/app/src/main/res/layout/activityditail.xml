@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="684dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#309834"
+            android:onClick="startAct"
+            android:text="Назад"
+            android:textColor="@color/black"
+            android:textSize="20dp"></Button>
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#CF1C1C"
+            android:onClick="exit"
+            android:text="Выход"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
